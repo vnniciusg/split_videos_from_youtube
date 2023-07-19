@@ -15,14 +15,12 @@ Siga as etapas abaixo para configurar o aplicativo:
 
 1. Clone este repositório para o seu ambiente local:
 
-git clone https://github.com/vnniciusg/split_videos_from_youtube
+- git clone https://github.com/vnniciusg/split_videos_from_youtube
 
 2. Crie um ambiente virtual para o projeto (recomendado):
-python -m venv env
-
+- python -m venv env
 
 3. Ative o ambiente virtual:
-
 - No Windows:
   ```
   env\Scripts\activate
@@ -32,8 +30,7 @@ python -m venv env
   source env/bin/activate
   ```
 4. Instale as dependências do projeto usando o arquivo requirements.txt:
-   
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 5. Correção de bug do Pytube:
 
@@ -41,9 +38,8 @@ Existe um bug conhecido no Pytube que pode causar o erro `RegexMatchError: get_t
 
 ## Uso
 
-1. Execute o aplicativo:
-   
-src/python main.py
+1. Execute o aplicativo:   
+- src/python main.py
 
 3. O aplicativo abrirá uma janela GUI (Interface Gráfica do Usuário) onde você poderá inserir a URL do vídeo do YouTube que deseja baixar e dividir, e selecionar o local de salvamento.
 
